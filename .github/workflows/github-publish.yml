@@ -34,10 +34,7 @@ jobs:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
           scope: "@soft-ui-generator"
-      - run: |
-          npm ci
-          touch .npmrc
-          echo @soft-ui-generator:registry=https://npm.pkg.github.com/ >> .npmrc
-          npm publish
+      - run: npm ci
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
