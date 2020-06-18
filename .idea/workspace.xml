@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dda16a28-3a71-40bf-80e2-fb61662d8893" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1dRKcXAdNWuHILCbBHLaA6fmlCf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -50,6 +53,7 @@
       <updated>1592382544904</updated>
       <workItem from="1592382546709" duration="283000" />
       <workItem from="1592487976658" duration="2520000" />
+      <workItem from="1592493409552" duration="843000" />
     </task>
     <servers />
   </component>
@@ -57,6 +61,14 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="508" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592493562531">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="508" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1592493562531" />
+    <state x="385" y="210" key="run.anything.popup" timestamp="1592493525583">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1592493525583" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1592382632185">
       <screen x="0" y="23" width="1440" height="788" />
     </state>

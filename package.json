@@ -1,5 +1,5 @@
 {
-  "name": "soft-ui-react-components",
+  "name": "@soft-ui-generator/soft-ui-react-components",
   "version": "1.0.1",
   "dependencies": {
     "color-processing-library": "^1.2.5",
@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/soft-ui-generator/soft-ui-react-components/issues"
   },
-  "homepage": "https://github.com/soft-ui-generator/soft-ui-react-components#readme"
+  "homepage": "https://github.com/soft-ui-generator/soft-ui-react-components#readme",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
