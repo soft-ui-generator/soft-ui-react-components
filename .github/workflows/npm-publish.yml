@@ -44,6 +44,7 @@ jobs:
           scope: "@soft-ui-generator"
       - run: | 
           npm ci
+          touch .npmrc
           echo @soft-ui-generator:registry=https://npm.pkg.github.com/ >> .npmrc
           npm publish
         env:
