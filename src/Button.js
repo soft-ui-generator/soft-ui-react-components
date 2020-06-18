@@ -68,7 +68,7 @@ Button.defaultProps = {
     shadowBlur: 30
 }
 
-export default Button;
+module.exports = { Button };
 
 const StyledButton = styled.button`
     width: 100%;

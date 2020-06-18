@@ -1,1 +1,5 @@
-export Button from './Button';
+const Button = require('./Button')
+
+module.exports = {
+    Button: Button
+}
