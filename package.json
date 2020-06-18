@@ -1,0 +1,8 @@
+{
+  "name": "soft-ui-react-components",
+  "version": "1.0.0",
+  "dependencies": {
+    "color-processing-library": "^1.2.5",
+    "styled-components": "^5.1.1"
+  }
+}
