@@ -1,8 +1,24 @@
 {
   "name": "soft-ui-react-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "color-processing-library": "^1.2.5",
     "styled-components": "^5.1.1"
-  }
+  },
+  "description": "Neumorphic components for react",
+  "main": "src/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soft-ui-generator/soft-ui-react-components.git"
+  },
+  "author": "Aleksandr Shchilkin <crazyredkitten@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soft-ui-generator/soft-ui-react-components/issues"
+  },
+  "homepage": "https://github.com/soft-ui-generator/soft-ui-react-components#readme"
 }
