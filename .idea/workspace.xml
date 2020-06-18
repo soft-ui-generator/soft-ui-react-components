@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dda16a28-3a71-40bf-80e2-fb61662d8893" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/github-publish.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
       <updated>1592382544904</updated>
       <workItem from="1592382546709" duration="283000" />
       <workItem from="1592487976658" duration="2520000" />
-      <workItem from="1592493409552" duration="843000" />
+      <workItem from="1592493409552" duration="1094000" />
     </task>
     <servers />
   </component>
@@ -61,6 +59,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="422" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592499009079">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="422" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1592499009079" />
     <state x="508" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592493562531">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
