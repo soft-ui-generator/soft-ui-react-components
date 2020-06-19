@@ -4,7 +4,7 @@ import styled from "styled-components";
 import {ComponentShadows} from "./Classes";
 
 
-const Button = ({
+export const Button = ({
                     children,
                     style,
                     isSameShadowColor = false,
@@ -68,30 +68,29 @@ Button.defaultProps = {
     shadowBlur: 30
 }
 
-module.exports = { Button };
 
 const StyledButton = styled.button`
     width: 100%;
     background-color:${props => props.backgroundColor};
     border: 1px solid ${props => props.backgroundColor};
-    transition: background-color .5s, color .5s;       
+    transition: background-color .5s, color .5s;
     color:${props => props.color};
     font-weight: bold;
     padding: .375rem .75rem;
     border-radius: ${props => props.radius}px;
     box-shadow: ${props=> props.shadowLength}px ${props=> props.shadowLength}px ${props=> props.Blur}px 0 ${props=> props.darkShadow},
-          -${props=> props.shadowLength}px -${props=> props.shadowLength}px ${props=> props.Blur}px 0 ${props=> props.lightShadow};           
+          -${props=> props.shadowLength}px -${props=> props.shadowLength}px ${props=> props.Blur}px 0 ${props=> props.lightShadow};
     :hover {
         background-color: ${props => props.color};
         border: 1px solid ${props => props.color};
         transition: border-color .5s, color .5s;
         color: ${props => props.backgroundColor};
-    }   
+    }
     :active {
         border: 1px solid ${props => props.backgroundColor};
         box-shadow: inset ${props=> props.shadowLength}px ${props=> props.shadowLength}px ${props=> props.Blur}px 0 ${props=> props.mainColorDarkShadow},
                     inset -${props=> props.shadowLength}px -${props=> props.shadowLength}px ${props=> props.Blur}px 0 ${props=> props.mainColorLightShadow};
         background-color: ${props => props.backgroundColor};
         color: ${props => props.color};
-    }     
+    }
     `;
